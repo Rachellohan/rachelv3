@@ -1,0 +1,30 @@
+.cardContainer {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.cardTextContainer {
+  margin-left: 40px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .cardContainer {
+    display: inline;
+  }
+
+  .cardTextContainer {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.blogCard {
+  border-radius: 10px;
+  box-shadow: 0px 1px 12px #ccc;
+  padding: 25px;
+}
+
+.blogCard:hover {
+  cursor: pointer;
+}
